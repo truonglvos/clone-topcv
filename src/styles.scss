@@ -1,0 +1,10 @@
+@import "./assets/font-awesome/css/font-awesome.min.css";
+@import "./assets/styles/reset.scss";
+@import "./assets/styles/layout-editor.scss";
+@import "./assets/styles/app.scss";
+@import "./assets/styles/page.scss";
+@import "./assets/styles/CVFormEditor.scss";
+@import "./assets/styles/select2.min.scss";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

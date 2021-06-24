@@ -1,0 +1,190 @@
+<div
+  id="group-header"
+  conf='{"selector":"#group-header","fixed":true,"blocks":["profile"]}'
+  cvo-block-group="true"
+>
+  <div
+    id="cvo-profile"
+    class="cvo-block"
+    conf='{"name":"profile","selector":"#cvo-profile","fixed":true}'
+    cvo-form-block="true"
+    style="display: block"
+  >
+    <table class="profile-table">
+      <tbody>
+        <tr>
+          <td class="avatar-wraper" rowspan="9">
+            <img
+              id="cvo-profile-avatar"
+              src="{{ cVHeader.avatar }}"
+              value="5ltkeLzAZy4lX4K2TiLU_60366b77ed7c3_cvtpl.jpg"
+              alt="avatar"
+              name="cvoData[profile][avatar]"
+              type="image"
+              cvo-form-field="true"
+              blockkey="profile"
+              fieldkey="avatar"
+            />
+          </td>
+          <td>
+            <span
+              id="cvo-profile-fullname"
+              name="cvoData[profile][fullname]"
+              type="text"
+              blockkey="profile"
+              fieldkey="fullname"
+              class="default_min_width"
+              cvo-form-field="true"
+              contenteditable="true"
+              cvo-validatable="true"
+              cvo-validation-errors="{}"
+              maxlength="64"
+              cvo-placeholder="Full name"
+              >{{ cVHeader.fullName }}</span
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span
+              id="cvo-profile-title"
+              name="cvoData[profile][title]"
+              type="text"
+              blockkey="profile"
+              fieldkey="title"
+              class="default_min_width"
+              cvo-form-field="true"
+              contenteditable="true"
+              cvo-validatable="true"
+              cvo-validation-errors="{}"
+              maxlength="512"
+              cvo-placeholder="Job position"
+              >{{ cVHeader.title }}</span
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="profile-label">Date of birth: </span>
+            <span
+              class="profile-field default_min_width"
+              id="cvo-profile-dob"
+              name="cvoData[profile][dob]"
+              type="text"
+              blockkey="profile"
+              fieldkey="dob"
+              cvo-form-field="true"
+              contenteditable="true"
+              cvo-validatable="true"
+              cvo-validation-errors="{}"
+              maxlength="128"
+              cvo-placeholder="Date of birth (not required)"
+              >{{ cVHeader.birth }}</span
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="profile-label">Gender: </span>
+            <span
+              class="profile-field default_min_width"
+              id="cvo-profile-gender"
+              name="cvoData[profile][gender]"
+              type="text"
+              blockkey="profile"
+              fieldkey="gender"
+              cvo-form-field="true"
+              contenteditable="true"
+              cvo-validatable="true"
+              cvo-validation-errors="{}"
+              maxlength="128"
+              cvo-placeholder="Gender (not required)"
+              >{{ cVHeader.gender }}</span
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="profile-label">Phone: </span>
+            <span
+              class="profile-field default_min_width"
+              id="cvo-profile-phone"
+              name="cvoData[profile][phone]"
+              type="text"
+              blockkey="profile"
+              fieldkey="phone"
+              cvo-form-field="true"
+              contenteditable="true"
+              cvo-validatable="true"
+              cvo-validation-errors="{}"
+              maxlength="256"
+              cvo-placeholder="Phone"
+              >{{ cVHeader.phone }}</span
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="profile-label">Email: </span>
+            <span
+              class="profile-field default_min_width"
+              id="cvo-profile-email"
+              name="cvoData[profile][email]"
+              type="text"
+              blockkey="profile"
+              fieldkey="email"
+              cvo-form-field="true"
+              contenteditable="true"
+              cvo-validatable="true"
+              cvo-validation-errors="{}"
+              maxlength="512"
+              cvo-placeholder="Email address"
+              >{{ cVHeader.email }}</span
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="profile-label">Address: </span>
+            <span
+              class="profile-field default_min_width"
+              id="cvo-profile-address"
+              name="cvoData[profile][address]"
+              type="text"
+              blockkey="profile"
+              fieldkey="address"
+              cvo-form-field="true"
+              contenteditable="true"
+              cvo-validatable="true"
+              cvo-validation-errors="{}"
+              maxlength="1024"
+              cvo-placeholder="Current address"
+              >{{ cVHeader.address }}</span
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="profile-label">Website: </span>
+            <span
+              class="profile-field default_min_width"
+              id="cvo-profile-website"
+              name="cvoData[profile][website]"
+              type="text"
+              blockkey="profile"
+              fieldkey="website"
+              cvo-form-field="true"
+              contenteditable="true"
+              cvo-validatable="true"
+              cvo-validation-errors="{}"
+              maxlength="512"
+              cvo-placeholder="Website, facebook, blog.."
+              >{{ cVHeader.website }}</span
+            >
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- FIXED GROUP -->
+</div>
